@@ -50,7 +50,7 @@ public class HeroManager extends Ship implements Manager, HeroAPI {
     private final Collection<? extends Portal> portals;
     private final HeroItemsAPI items;
 
-    private ShipModeSelectorHandler shipModeHandler;
+    private final ShipModeSelectorHandler shipModeHandler;
     private final MutableShipMode shipMode = new MutableShipMode();
 
     public Map map;
